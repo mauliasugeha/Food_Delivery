@@ -1,0 +1,8 @@
+com\example\paymentservice\config\JacksonConfig.class
+com\example\paymentservice\PaymentServiceApplication.class
+com\example\paymentservice\config\KafkaConfig.class
+com\example\paymentservice\consumer\PaymentConsumer.class
+com\example\paymentservice\controller\PaymentController.class
+com\example\paymentservice\event\OrderEvent.class
+com\example\paymentservice\producer\PaymentProducer.class
+com\example\paymentservice\event\ProductReservedEvent.class

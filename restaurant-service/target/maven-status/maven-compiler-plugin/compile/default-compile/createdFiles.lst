@@ -1,0 +1,9 @@
+com\example\restaurantservice\config\KafkaConfig.class
+com\example\restaurantservice\producer\ProductProducer.class
+com\example\restaurantservice\model\Product.class
+com\example\restaurantservice\event\OrderEvent.class
+com\example\restaurantservice\repository\ProductRepository.class
+com\example\restaurantservice\config\JacksonConfig.class
+com\example\restaurantservice\event\ProductReservedEvent.class
+com\example\restaurantservice\RestaurantServiceApplication.class
+com\example\restaurantservice\consumer\RestaurantConsumer.class
