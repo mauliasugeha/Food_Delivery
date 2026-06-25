@@ -1,0 +1,5 @@
+com\example\shippingservice\config\KafkaConfig.class
+com\example\shippingservice\event\OrderEvent.class
+com\example\shippingservice\controller\ShippingController.class
+com\example\shippingservice\consumer\ShippingConsumer.class
+com\example\shippingservice\ShippingServiceApplication.class
