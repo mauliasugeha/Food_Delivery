@@ -1,0 +1,5 @@
+# Created at 2026-06-06T00:05:18.189
+Boot Manifest-JAR contains absolute paths in classpath 'E:\ENTERPRISE APPLICATION INTEGRATION\.Tugas\Project_EAI\order-management\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
