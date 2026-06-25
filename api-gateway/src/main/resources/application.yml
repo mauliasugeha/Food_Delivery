@@ -1,0 +1,36 @@
+#server:
+#  port: 8000
+#
+#spring:
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          issuer-uri: http://localhost:9090/realms/eai-realm
+#
+#  cloud:
+#    gateway:
+#      routes:
+#        # 1. Rute Khusus Customer
+#        - id: customer-route
+#          uri: http://localhost:8080
+#          predicates:
+#            - Path=/customers,/customers/**
+#
+#        # 2. Rute Khusus Order
+#        - id: order-route
+#          uri: http://localhost:8080
+#          predicates:
+#            - Path=/api/orders/**
+#
+#        # 3. Rute Khusus Produk
+#        - id: product-route
+#          uri: http://localhost:8080
+#          predicates:
+#            - Path=/api/products/**
+#
+#        # 4. Rute Khusus Ecommerce
+#        - id: ecommerce-route
+#          uri: http://localhost:8081
+#          predicates:
+#            - Path=/payment/**,/shipping/**
